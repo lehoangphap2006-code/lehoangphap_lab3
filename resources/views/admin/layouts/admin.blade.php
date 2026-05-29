@@ -29,18 +29,18 @@
 
             {{-- HEADER --}}
             <div class="border-bottom bg-white">
-                @include('admin.partials.header')
+              @include('admin.partials.header')
             </div>
 
             {{-- MAIN CONTENT --}}
             <main class="flex-grow-1 bg-light p-3">
                 @yield('content')
-                <h1>Welcome ....</h1>
+                
             </main>
 
             {{-- FOOTER --}}
             <footer class="bg-dark text-white text-center py-2">
-                @include('admin.partials.footer')
+               @include('admin.partials.footer')
             </footer>
 
         </div>
